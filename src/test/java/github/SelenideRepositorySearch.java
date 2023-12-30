@@ -1,18 +1,10 @@
 package github;
 
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selectors;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.By;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
-
 
 public class SelenideRepositorySearch {
 
@@ -23,7 +15,7 @@ public class SelenideRepositorySearch {
     }
 
     @Test
-    void shouldFindSelenideRepositoryAtTheTop() {
+    void shouldFindJunit5Example() {
 
 // Откройте страницу Selenide в Github
         open("/selenide/selenide");
