@@ -11,7 +11,6 @@ public class SelenideRepositorySearch {
     @BeforeAll
     static void beforeAll() {
         Configuration.baseUrl = "https://github.com";
-        Configuration.holdBrowserOpen = true;
     }
 
     @Test
