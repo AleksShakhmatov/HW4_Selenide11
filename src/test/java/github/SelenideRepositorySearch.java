@@ -14,7 +14,7 @@ public class SelenideRepositorySearch {
     }
 
     @Test
-    void shouldFindJunit5Example() {
+    void shouldFindJunit5CodeExample() {
 
 // Откройте страницу Selenide в Github
         open("/selenide/selenide");
